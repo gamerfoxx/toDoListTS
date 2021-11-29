@@ -1,0 +1,45 @@
+.container {
+  width: 50vw !important;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.to-do-list-form h3 {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.to-do-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.to-do-item {
+  display: flex;
+  flex-direction: row;
+  max-width: 100%;
+}
+
+.to-do-item p.title {
+  flex-grow: 3;
+  padding-right: 10px;
+}
+
+.btn-container {
+  flex-grow: 0;
+}
+
+.to-do-item p.title {
+  display: flex;
+  flex-grow: 2;
+}
+
+.to-do-container {
+  display: none;
+}
+
+.show-container {
+  display: block;
+}
